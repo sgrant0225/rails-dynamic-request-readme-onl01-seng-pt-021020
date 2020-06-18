@@ -368,3 +368,7 @@ Completed 406 Not Acceptable in 24ms (ActiveRecord: 0.0ms)
 Started GET "/posts/1" for 127.0.0.1 at 2020-06-18 00:20:22 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 454ms (Views: 437.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mrollback transaction[0m
